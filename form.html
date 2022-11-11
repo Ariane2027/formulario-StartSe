@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Pesquisa de Interesses</title>
+    </head>
+    
+    <body>
+        <nav>
+            <header>
+                <img src="56468-start.gif" width="130px" height="50px" border-radius="80%" alt="56468-start" id="star">
+            </header>
+            <section class="nav-items">
+                <a href="formulario-start.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="form.html">Formulário</a>
+            </section>
+        </nav>
+      
+        <form id="form" action="http://google.com">
+            <section id="form">
+                <h2>Formulário de Interesses</h2>
+                <p>Digite seu nome:
+                    <input type="text" name="userName" size=40 maxlength=40 placeholder="Digite seu nome completo">
+                </p>
+                <p>Nome da Empresa:
+                    <input type="text" name="userJob" size=40 maxlength=40 placeholder="Empresa">
+                </p>
+                <p>E-mail:                    
+                    <input type="email" name="email"id="email" required size=40 maxlength=40 placeholder="E-Mail">
+                </p>
+                <p>Segmento:
+                    <input type="text" name="userComment" size=40 maxlength=40 >
+                </p>
+    
+                <p>
+                    <label><strong>Quais Tecnologia mais utiliza:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> HTML </label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> JavaScript</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4"> PHP</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5"> C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                    <label for="tecnologia6"> Python</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                    <label for="tecnologia7"> Java</label>
+                </p>
+               
+                <input id="form-button" type=submit value="ENVIAR">
+            </section>
+        </form>
+    </body>
+    
+    </html>
